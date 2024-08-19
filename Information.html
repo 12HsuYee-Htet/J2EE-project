@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>Customer's valid info</title>
+</head>
+<body>
+
+<form action="InformationServlet">
+
+<table style="height: 600px; background-color:#fecaca; margin: 0 auto;
+            width: 450px;padding:30px">
+    <th align="center" style="color: red ; font-family:Arial ;">Please fill out this Form</th>        
+<tr>
+<td>Name:</td>  
+</tr>
+
+<tr>
+  <td style="height: 10.2333px;width: 215.867px;"><input type="text" name="Fname" style="width: 200px;" placeholder="First"></td>
+  <td><input type="text" name="Lname" style="width: 200px; " placeholder="Last"></td>
+</tr>
+
+<tr>
+  <td>Age :</td>
+</tr>
+
+<tr>
+  <td colspan="2"><input type="text" name="age" style="width: 420px"></td>
+</tr>
+
+<tr><td>Gender:</td></tr>
+<tr>
+<td colspan="2">
+    <select id="gender" name="gender" required style="width: 426px;height:21.33px;">
+        <option value="" disabled selected>Select your gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select>
+</td>
+
+</tr>
+<tr>
+<td>Phone number:</td>  
+</tr>
+
+<tr>
+  <td colspan="2"><input type="number" name="phone" value="### ### ####" style="width: 420px"></td>
+</tr>
+
+<tr><td>Email address:</td></tr>
+
+<tr>
+  <td colspan="2"><input type="Email" name="email"  style="width: 420px"></td>
+</tr>
+<tr><td>Appointment date:</td></tr>
+<tr>
+  <td colspan="2"><input type="Date" name="date" style="width: 420px"></td>
+</tr>
+  <tr>
+  <td><br><br><button style="height:40px; width:200px; border:radius;margin-left:50%;background-color:#ff028d; color:white; font-size:18px">Submit</button></td>
+  
+  </tr>
+</table>
+
+</form>
+</body>
+</html>
